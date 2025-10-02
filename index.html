@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AnimeStream</title>
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Navbar -->
   <header>
     <h1 class="logo">AnimeStream</h1>
-    <input type="text" id="searchBox" placeholder="Search anime...">
+    <div class="search-container">
+      <input type="text" id="searchBox" placeholder="Search anime...">
+      <div id="searchResults" class="search-results"></div>
+    </div>
   </header>
 
   <!-- Hero Banner -->
@@ -31,7 +35,6 @@
     <h3>⭐ Top Rated</h3>
     <div class="carousel-row" id="top-rated"></div>
   </section>
-
   <script src="app.js"></script>
 </body>
 </html>
