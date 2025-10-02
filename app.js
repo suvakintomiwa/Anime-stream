@@ -117,7 +117,7 @@
         detailSection.innerHTML = `
           <img src="${anime.images.jpg.large_image_url}" alt="${anime.title}">
           <div>
-            <button onclick="showHome()" style="background: #f47521; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-bottom: 15px;">← Back to Home</button>
+            <button onclick="showHome()" style="background: #9b5de5; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; margin-bottom: 15px;">← Back to Home</button>
             <h2>${anime.title}</h2>
             <p><strong>Episodes:</strong> ${anime.episodes || "?"}</p>
             <p><strong>Score:</strong> ${anime.score || "N/A"}</p>
